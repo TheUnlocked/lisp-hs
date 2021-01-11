@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:lisp"
+
+    - path: "./test"
+      component: "lisp:test:spec"
+
+    - path: "./app"
+      component: "lisp:exe:repl"
